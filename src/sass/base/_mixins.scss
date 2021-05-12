@@ -1,0 +1,26 @@
+@mixin before_circle{
+    &::before{
+        content: '';
+        position: absolute;
+        border-radius: 100%;
+        width: 36px;
+        height: 36px;
+        z-index: -1;
+        top: -25%;
+        left: 0;
+        background: $main-color;
+    }
+}
+@mixin before_descrblock{
+    &::before{
+        content: '';
+        position: absolute;
+        border-radius: 100%;
+        width: 36px;
+        height: 36px;
+        z-index: -1;
+        top: -15px;
+        left: -15px;
+        background: $main-color;
+    }
+}

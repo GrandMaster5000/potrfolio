@@ -1,0 +1,32 @@
+.subtitle{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffff;
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    @include before_circle;
+    &_black{
+        color: #000000;
+    }
+    &_black{
+        color: black;
+    }
+    &_circle-left-14px{
+        &::before{
+            content: '';
+            position: absolute;
+            border-radius: 100%;
+            width: 36px;
+            height: 36px;
+            z-index: -1;
+            top: -25%;
+            left: 557px;
+            background: $main-color;
+        }
+    }
+    &_center{
+        text-align: center;
+    }
+}

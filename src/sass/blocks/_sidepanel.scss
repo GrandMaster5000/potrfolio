@@ -1,0 +1,32 @@
+.sidepanel{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    color: #fff;
+    will-change: transform;
+    transform: rotate(-90deg);
+    position: fixed;
+    left: -150px;
+    top: 360px;
+    z-index: 10;
+    
+    &__line{
+        width: 70px;
+        border: 2px solid #FFFFFF;
+        height: 0px;
+        align-self:center;
+        margin-left: 15px;
+    }
+}
+.icon{
+    font-size: 30px;
+    margin: 0 7px 0 8px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    &:visited{
+        text-decoration: none;
+        color: #fff;
+    }
+}

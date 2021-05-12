@@ -1,0 +1,20 @@
+.title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    &_mt9{
+        margin-top: 9px;
+        margin-bottom: 25px;
+    }
+    &_mt6{
+        margin-top: 6px;
+    }
+    &_black{
+        color: #000000;
+        font-size: 36px;
+    }
+    &_center{
+        text-align: center;
+    }
+}
