@@ -29,4 +29,10 @@
     &_center{
         text-align: center;
     }
+    &_nonecircle{
+        &::before{
+            content: '';
+            display: none;
+        }
+    }
 }
