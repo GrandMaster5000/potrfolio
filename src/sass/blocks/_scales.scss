@@ -1,0 +1,32 @@
+.scales{
+    min-height: 240px;
+    padding: 60px 0 112px 119px;
+    .container{
+        display: grid;
+        grid-template: repeat(auto-fill , minmax(70px , auto)) / repeat(2 , 350px);
+        gap: 44px 237px;
+    }
+    &__block{
+        width: 350px;
+        display: grid;
+        grid-template-rows: repeat(2 , 1fr);
+        row-gap: 27px;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 156px  28px;
+        column-gap: 160px;
+    }
+    &__scale{
+        width: 350px;
+        height: 14px;
+        background: #E8E4DE;
+        border-radius: 4px;
+    }
+    &__inside-scales{
+        display: block;
+        height: 14px;
+        background: $main-color;
+        border-radius: 4px;
+    }
+}

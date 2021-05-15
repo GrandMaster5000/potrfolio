@@ -13,17 +13,19 @@
     &_black{
         color: black;
     }
-    &_circle-left-14px{
+    &_circle-center{
         &::before{
-            content: '';
-            position: absolute;
-            border-radius: 100%;
-            width: 36px;
-            height: 36px;
-            z-index: -1;
-            top: -25%;
-            left: 557px;
-            background: $main-color;
+            // content: '';
+            // position: absolute;
+            // border-radius: 100%;
+            // width: 36px;
+            // height: 36px;
+            // z-index: -1;
+            // top: -25%;
+            // left: 557px;
+            // background: $main-color;
+            left: 50%;
+            transform: translateX(-35%);
         }
     }
     &_center{
