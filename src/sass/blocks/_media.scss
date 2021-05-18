@@ -1,0 +1,225 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+    .sidepanel{
+       display: none;
+    }
+    .menu{
+        &__block{
+            width: 250px;
+        }
+        &__list{
+            padding-left: 20px;
+        }
+        &__social{
+            left: 20%;
+        }
+        &__link{
+            a{
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+        .icon{
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    .hamburger{
+        right: 5px;
+    }
+    .aboutme{
+        &__cover{
+            grid-template-columns: 352px 357px;
+        }
+    }
+    .title{
+        &_black{
+            font-size: 33px;
+        }
+    }
+    .benefit{
+        &__wrapper{
+            grid-template-columns: repeat(2,300px);
+            column-gap: 100px;
+        }
+    }
+    .skills{
+            &__wrapper{
+                justify-content: space-around;
+            }
+    }
+    .scales{
+        padding: 60px 0 112px 0;
+    }
+    .portfolio{
+        #mac{
+            grid-column: auto;
+        }
+        #plans{
+            grid-row: auto;
+            grid-column: auto;
+        }
+        &__item{
+            &:hover{
+                transform: scale(1);
+            }
+        }
+    }
+}
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+    }
+    .title{
+        &_black{
+            font-size: 31px;
+        }
+    }
+    .aboutme{
+        &__cover{
+            grid-template-columns: 352px 328px;
+            column-gap: 40px;
+        }
+    }
+    .benefit{
+        &__wrapper{
+            grid-template-columns: repeat(2,200px);
+        }
+    }
+    .scales{
+        .container{
+            grid-template-columns: 350px;
+            justify-content: space-around;
+        }
+    }
+    .contacts{
+        padding-top: 100px;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+    }
+    .title{
+        font-size: 40px;
+        line-height: 50px;
+        &_black{
+            font-size: 23px;
+        }
+    }
+    .arrow-up{
+        bottom: 10px;
+        right: 10px;
+    }
+    .aboutme{
+        padding-top: 40px;
+        min-height: 500px;
+        &__cover{
+            grid-template: 340px auto auto/ 1fr;
+            column-gap: 0;
+        }
+        &__foto{
+            display: none;
+        }
+    }
+    .benefit{
+        padding: 50px 0;
+        &__wrapper{
+            grid-template: repeat(2 , 285px) /200px;
+            row-gap: 30px;
+            justify-content: center;
+        }
+        &__longline{
+            height: 260px;
+        }
+    }
+    .contacts{
+        padding-bottom: 0;
+        &__form{
+            grid-template: 45px 190px 45px / repeat(2, 250px);
+        }
+        .container{
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .contacts{
+        &__form {
+            grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+        }
+        &__textarea {
+            grid-column: unset;
+            width: 100%;
+        }
+        &__triggers {
+            grid-column: unset;
+            grid-template-columns: 1fr;
+            column-gap: unset;
+            row-gap: 20px;
+        }
+        &__btn {
+            order: 2;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+        &__policy {
+            width: 180px;
+            margin: 0 auto;
+            line-height: 18px;
+        }
+    }
+}
+@media (max-width:330px){
+   .benefit{
+        &__wrapper{
+            justify-content: flex-end;
+        }
+   }
+   .scales{
+        .container{
+            grid-template-columns: 300px;
+        }
+        &__wrapper{
+            column-gap: 116px;
+        }
+    }
+}
+@media(max-height:488px){
+    .menu{
+        &__social{
+            top: -45%;
+        }
+    }
+    .promo{
+        padding-top: 50px;
+    }
+}
+@media(max-height:385px){
+    .menu{
+        &__block{
+            padding-top: 50px;
+        }
+        &__link{
+            margin-bottom: 10px;
+            a{
+                font-size: 16px;
+            }
+        }
+        &__social{
+            display: none;
+        }
+    }
+}

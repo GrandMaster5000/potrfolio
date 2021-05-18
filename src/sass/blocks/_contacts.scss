@@ -1,0 +1,81 @@
+.contacts{
+    min-height: 920px;
+    padding-bottom: 328px ;
+    .container{
+        display: grid;
+        grid-template-columns: 585px;
+        justify-content: center;
+    }
+    &__descr{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .icon{
+        color: #000;
+    }
+    &__wrapper{
+        margin-top: 20px;
+    }
+    &__form{
+        margin: 30px 0 40px 0;
+        display: grid;
+        grid-template: 45px 190px 45px / repeat(2 , 280px);
+        justify-content: space-between;
+        row-gap: 30px;
+        label{
+            position: absolute;
+            height: 18px;
+            padding: 0 8px;
+            background: #fff;
+            font-size: 12px;
+            display: block;
+            top: -9px;
+            left: 12px;
+        }
+    }
+    &__triggers{
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    &__policy{
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        input{
+            margin-right: 10px;
+        }
+    }
+    &__input{
+        position: relative;
+        input{
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        
+    }
+    &__textarea{
+        grid-column: 1/3;
+        position: relative;
+        textarea{
+            width: 100%;
+            height: 100%;
+            resize: none;
+            padding: 20px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    &__btn{
+        width: 219px;
+    }
+}

@@ -2,9 +2,6 @@
     min-height: 560px;
     padding-top: 160px;
     position: relative;
-    &__im{
-        width: 570px;
-    }
     &__descr{
         font-size: 14px;
         font-style: normal;
@@ -13,11 +10,16 @@
         text-align: left;
         margin: 20px 0 40px 0;
     }
-    .container{
-        display: flex;
-        justify-content: flex-end;
+    &__cover{
+        display: grid;
+        grid-template-columns: 352px 570px ;
+        column-gap: 250px;
     }
     &__foto{
-        margin-right: 250px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 }

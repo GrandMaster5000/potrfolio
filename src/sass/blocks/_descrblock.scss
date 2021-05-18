@@ -1,5 +1,4 @@
 .descrblock{
-    width: 260px;
     position: relative;
     &__iconwrap{
        @include before_descrblock;
@@ -21,7 +20,6 @@
         text-align: left;
         &_left{
             position: absolute;
-            width: 375px;
             left: -60px;
             margin-top: 12px;
         }

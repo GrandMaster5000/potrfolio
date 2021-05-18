@@ -1,7 +1,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 
-@import "libs/animate.scss";
+
 @import "libs/iconfonts";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 * {
@@ -26,3 +26,7 @@
 @import 'blocks/_benefit';
 @import 'blocks/skills';
 @import 'blocks/scales';
+@import 'blocks/portfolio';
+@import 'blocks/contacts';
+@import 'blocks/arrow';
+@import 'blocks/media';

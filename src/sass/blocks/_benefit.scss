@@ -3,7 +3,9 @@
     padding: 190px 0 ;
     position: relative;
     &__wrapper{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,417px);
+        column-gap: 186px;
         justify-content: space-around;
         margin-top: 60px;
         position: relative;
